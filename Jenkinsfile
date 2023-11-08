@@ -24,6 +24,7 @@ pipeline {
             steps {
                     // Assurez-vous que vous êtes dans le répertoire du projet Maven
                     // Exécutez les tests unitaires avec Maven
+                    echo "Test unitaire..."
                     sh 'mvn test'
             }
         }
